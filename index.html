@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="github-api">
+	<head>
+		
+	</head>
+<body ng-controller="GitHubController">
+
+<form>
+	<input type="text" placeholder="username" ng-model="searchText">
+	<button class="button" ng-click="getUserData()">Submit User</button>
+
+</form>
+
+{{user}}
+
+
+
+	
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.3/angular.min.js"></script>
+	<script src="app.js"></script>
+	<script src="controller.js"></script>
+	<script src="service.js"></script>
+</body>
+</html>
